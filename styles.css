@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.profile-img {
+    height: 150px;
+}
+
+.top-container {
+    background-color: #CFF5E7;
+    text-align: center;
+    font-size: 1em;
+}
+
+.mid-container {
+    background-color: snow;
+    text-align: center;
+    padding: 2em;
+}
+
+.bottom-container {
+    background-color: #A0E4CB;
+    text-align: center;
+    padding: 1em;
+    line-height: 2;
+}
+
+.sun-img {
+    height: 100px;
+    position: relative;
+    left: 10em;
+}
+
+.mountain-img {
+    height: 250px;
+    position: relative;
+    right: 15em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.desc {
+    color: #59C1BD;
+}
+
+h1 {
+    padding: 0.5em;
+    font-size: 3em;
+    margin: 2em;
+    color: #59C1BD;
+}
+
+h2 {
+    color: #59C1BD;
+    margin: 2em;
+}
+
+h3 {
+    color: #59C1BD;
+}
+
+.skill-block {
+    line-height: 2;
+    width: 50%;
+    margin: 2em auto 2em auto;
+    text-align: left;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+
+.skill-photo {
+    margin-right: 1em;
+    float: left;
+    height: 150px;
+}
+
+.skill-photo2 {
+    margin-left: 0.5em;
+    float: right;
+    height: 100px;
+}
+
+.linx {
+    padding: 1em;
+}
+
+.intro {
+    margin-bottom: 2em;
+}
+
+hr {
+    border-style: dotted;
+    width: 6%;
+    border-width: 0.3em;
+    border-color: grey;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+
+}
+
+.contact-button {
+
+
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
+    margin: 10px auto 10px auto;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-width: 0;
+    border-radius: 10px;
+    display: block;
+
+}
+
+.contact-button:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.noline{
+    text-decoration: none;
+}
+.refer{
+    margin-right: 2em;
+    margin-left: 2em;
+    text-decoration: none;
+    color:#0D4C92;
+}
